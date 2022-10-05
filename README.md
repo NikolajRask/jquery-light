@@ -16,7 +16,7 @@ Include a **jquery-light.js** script tag in your .html file<br>
 ```
 
 
-## Functions :car:
+## Selector Functions :car:
 ### .add()
 Adds a new element inside of the selector **.add(element)**<br>
 ```javascript showLineNumbers
@@ -70,3 +70,83 @@ Makes the selector invisible **.hide()**<br>
 ```javascript showLineNumbers
 $("p").hide()
 ```
+
+### .toggleVisibility()
+Toggles the visibility of the selector **.toggleVisibility()**<br>
+```javascript showLineNumbers
+$("p").toggleVisibility()
+```
+
+### .css()
+Changes the css of the selector **.css(styles)**<br>
+```javascript showLineNumbers
+$("p").css({
+  width: "100px",
+  height: "100px",
+  marginTop: "200px"
+})
+```
+
+### .is()
+Check the type of the selector  **.is(type)**<br>
+```javascript showLineNumbers
+if ($("#title").is("h1") === true) {
+  console.log("The title is a h1 element")
+}
+```
+
+### .clear()
+Clears all content of the selector **.clear()**<br>
+```javascript showLineNumbers
+$("p").clear()
+```
+
+
+### .delete()
+Deletes the selector **.delete()**<br>
+```javascript showLineNumbers
+$("p").delete()
+```
+
+
+### .insert()
+Insert texts into the innerHTMl of the selector **.insert(text)**<br>
+```javascript showLineNumbers
+$("p").insert("Hello ")
+$("p").insert("World")
+```
+
+### .put()
+Puts texts into the innerHTMl of the selector **.put(text)**<br>
+```javascript showLineNumbers
+$("p").put("Hello World")
+```
+
+### .add()
+Adds element inside of the selector **.add(element)**<br>
+```javascript showLineNumbers
+$("p").add("div")
+```
+
+### .children()
+Returns a list of children of the selector **.children()**<br>
+```javascript showLineNumbers
+$("p").children()
+```
+
+### .click()
+Clicks the selector **.click()**<br>
+```javascript showLineNumbers
+$("p").click()
+```
+
+### .load()
+Load fecthed text from third parties into the selector **.load(url, complete)**<br>
+```javascript showLineNumbers
+$("p").load("stats.txt", (data) => {
+  console.log("Loaded data done")
+})
+```
+
+
+
