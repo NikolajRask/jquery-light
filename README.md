@@ -148,5 +148,7 @@ $("p").load("stats.txt", (data) => {
 })
 ```
 
+More functionality will be added in the future ▶️
+
 
 
