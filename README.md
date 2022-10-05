@@ -1,4 +1,3 @@
-[![Build Status]
 # JQuery Light :smiley:
 >Version 1.0
 JQuery-Light is my own alternative to JQuery, but in this version I have only included the most usefull features in my opinion.<br>
@@ -149,6 +148,7 @@ $("p").load("stats.txt", (data) => {
 })
 ```
 
+Some functions including .add() and .animate() may are not done being developed.
 More functionality will be added in the future ▶️
 
 
