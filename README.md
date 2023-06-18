@@ -1,5 +1,6 @@
 # JQuery Light :smiley:
 >Version 1.0
+
 JQuery-Light is my own alternative to JQuery, but in this version I have only included the most usefull features in my opinion.<br>
 Feel free to pull the project and make any changes to the code that you desire.
 
